@@ -102,7 +102,7 @@ main {
     flex-wrap: wrap;
 }
 
-main div {
+main>div {
 
     width: calc((100% - 10px) / 3);
 }
@@ -115,6 +115,24 @@ main img {
 .image {
 
     position: relative;
+}
+
+
+.content {
+
+    font-size: small;
+}
+
+.brand {
+
+    color: grey;
+    font-size: 10px;
+
+}
+
+.red-txt {
+
+    color: red;
 }
 
 .badge {
