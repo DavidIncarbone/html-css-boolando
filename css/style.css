@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 ul {
@@ -117,6 +117,11 @@ main img {
     position: relative;
 }
 
+.content-container {
+
+    margin-bottom: 30px;
+}
+
 
 .content {
 
@@ -170,9 +175,24 @@ main img {
     background-color: var(--color-green);
     width: 60px;
 
+}
 
+.heart {
 
+    position: absolute;
+    padding: 2px 15px 2px 10px;
+    top: 0;
+    right: 0;
+    background-color: white;
+    margin-top: 5px;
+    font-size: 20px;
 
+}
+
+.heart:hover {
+
+    color: red;
+    cursor: pointer;
 }
 
 
