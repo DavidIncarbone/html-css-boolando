@@ -97,14 +97,16 @@ div.container>div {
 main img {
 
     width: 100%;
+    position: relative;
 }
 
 .image {
 
     position: relative;
+    height: 300px;
 }
 
-.image:hover .heart {
+div.image:hover .heart {
 
     display: block;
 }
@@ -120,6 +122,13 @@ main img {
     top: 0;
     left: 0;
     display: none;
+
+}
+
+div.image img {
+
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -157,6 +166,11 @@ main img {
     bottom: 25px;
 
 
+}
+
+.badge:hover {
+
+    bottom: 25px
 }
 
 .badge-red {
@@ -202,6 +216,7 @@ main img {
 
     color: red;
     cursor: pointer;
+
 }
 
 
