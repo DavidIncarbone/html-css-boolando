@@ -31,24 +31,10 @@ a:not(footer a) {
     color: white;
 }
 
+h5 {
 
-
-
-h5:nth-child(1) {
-
-    font-size: bold;
-}
-
-/* flex utility */
-
-.d-flex {
-
-    display: flex;
-}
-
-.sp-between {
-
-    justify-content: space-between;
+    font-size: 10px;
+    margin-bottom: 5px;
 }
 
 /* header */
@@ -70,19 +56,12 @@ header {
     align-items: center;
     padding: 15px;
     color: white;
-
-
-
-
-
-
-
 }
 
 .logo {
 
     width: 100px;
-    height: 25px;
+    height: 30px;
 }
 
 header img {
@@ -217,15 +196,25 @@ footer a {
     color: white;
 }
 
+footer li {
+
+    font-size: 10px;
+
+}
+
+
 .footer-container {
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
     max-width: 800px;
     margin: 0 auto;
     padding: 15px 0;
 
+}
 
+footer ul:nth-child(2) {
+
+    padding-left: 2px;
 }
