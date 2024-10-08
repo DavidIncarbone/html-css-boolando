@@ -96,6 +96,27 @@ main img {
     position: relative;
 }
 
+.image:hover .heart {
+
+    display: block;
+}
+
+.image:hover .h-image {
+
+    display: block;
+}
+
+.h-image {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+
+
 .content-container {
 
     margin-bottom: 30px;
@@ -165,6 +186,7 @@ main img {
     background-color: white;
     margin-top: 5px;
     font-size: 20px;
+    display: none;
 
 }
 
@@ -175,8 +197,6 @@ main img {
 }
 
 
-
-.double-badge {}
 
 /* footer */
 
