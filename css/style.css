@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 ul {
@@ -111,6 +111,55 @@ main img {
 
     width: 100%;
 }
+
+.image {
+
+    position: relative;
+}
+
+.badge {
+
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+    bottom: 25px;
+
+
+}
+
+.badge-red {
+
+
+    background-color: var(--color-red);
+    width: 40px;
+
+
+}
+
+
+.badge-green {
+
+    background-color: var(--color-green);
+    width: 60px;
+    left: 45px;
+
+
+}
+
+#last-green {
+
+    background-color: var(--color-green);
+    width: 60px;
+
+
+
+
+}
+
+
+
+.double-badge {}
 
 /* footer */
 
